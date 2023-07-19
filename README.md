@@ -42,7 +42,9 @@
    ```
    docker-compose up
    ```
-
+5. 開啟網頁
+   * 前台: http://localhost/
+   * 後台: http://localhost/backendLogin/
 
 
 
