@@ -23,3 +23,28 @@
   * 消息管理
   * 活動管理
   * 商品管理
+
+### 如何執行專案
+此專案放置於docker hub
+
+1. 下載 **docker-compose.yml** 及 **ocean.sql**
+2. 將image拉下
+   ```
+   #spring boot
+   docker pull tingliu09/springboot-ocean-demo:latest
+
+   #vue
+   docker pull tingliu09/vue-ocean-demo
+   ```
+   
+4. 於下載位置執行專案
+   
+   ```
+   docker-compose up
+   ```
+
+
+
+
+
+
